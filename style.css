@@ -11,6 +11,23 @@ h2{
 	font-weight: normal;
 }
 
+h3{
+	background-color: red;
+	color: white;
+	height: 40px;
+	width: 555px;
+	text-align: center;
+	padding: 20px 0px 0px 0px;
+	text-shadow: 1px 1px black;
+	margin: 0 auto;
+}
+
+#error{
+	background-color: white;
+	height: 600px;
+	margin: 0 auto;
+	width: 800px;
+}
 main{
 	background-color: white;
 	margin: 0 auto;

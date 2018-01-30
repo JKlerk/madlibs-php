@@ -26,19 +26,16 @@
 					<li><a href='#'>Onkunde</a></li>
 				</ul>
 		</header>
-		<main>
-			<article>
-				<h1>Onkunde</h1>
-				<?php
+			<?php
 				if ($empty){
-					echo "Alle velden moeten ingevuld worden";
+					echo "<div id='error'><h3>Alle velden moeten ingevuld worden!</h3></div>";
 				}else {
-			    	echo "Er zijn veel mensen die niet kunnen " . $vraag1 . ". Neem nou " . $vraag2 . ". Zelfs met de hulp van een " . $vraag4 . "
+			    	echo "<main><article><h1>Onkunde</h1>
+			    	Er zijn veel mensen die niet kunnen " . $vraag1 . ". Neem nou " . $vraag2 . ". Zelfs met de hulp van een " . $vraag4 . "
 				    of zelfs " . $vraag3 . " kan " . $vraag2 . " niet " . $vraag1 . ". dat heeft niet te maken met een gebrek aan " . $vraag5 . " , maar met een 
 				    te veel aan " . $vraag6 . ". Teveel " . $vraag6 . " leidt tot " . $vraag7 . " en dat is niet goed als je wilt " . $vraag1 . ".
-				    Helaas voor " . $vraag2 . ".";}
-				?>
-			</article>
+				    Helaas voor " . $vraag2 . ".</article></main";}
+			?>
 		</main>
 		<footer>
 			<p>Gemaakt door Joey</p>
