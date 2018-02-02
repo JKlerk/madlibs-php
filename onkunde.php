@@ -1,13 +1,13 @@
 <?php
-	if (!empty($_POST ['vraag1']) && !empty($_POST ['vraag2']) && !empty($_POST ['vraag3']) && !empty($_POST ['vraag4']) && !empty($_POST ['vraag5']) && !empty($_POST ['vraag6']) && !empty($_POST ['vraag7']) && !empty($_POST ['vraag8'])) {
-		$vraag1 = $_POST ['vraag1'];
-		$vraag2 = $_POST ['vraag2'];
-		$vraag3 = $_POST ['vraag3'];
-		$vraag4 = $_POST ['vraag4'];
-		$vraag5 = $_POST ['vraag5'];
-		$vraag6 = $_POST ['vraag6'];
-		$vraag7 = $_POST ['vraag7'];
-		$vraag8 = $_POST ['vraag8'];
+	if (!empty($_POST ['q1']) && !empty($_POST ['q2']) && !empty($_POST ['q3']) && !empty($_POST ['q4']) && !empty($_POST ['q5']) && !empty($_POST ['q6']) && !empty($_POST ['q7']) && !empty($_POST ['q8'])) {
+		$q1 = $_POST ['q1'];
+		$q2 = $_POST ['q2'];
+		$q3 = $_POST ['q3'];
+		$q4 = $_POST ['q4'];
+		$q5 = $_POST ['q5'];
+		$q6 = $_POST ['q6'];
+		$q7 = $_POST ['q7'];
+		$q8 = $_POST ['q8'];
 	} else{
 		$empty = true;
 	}
@@ -31,10 +31,11 @@
 					echo "<div id='error'><h3>Alle velden moeten ingevuld worden!</h3></div>";
 				}else {
 			    	echo "<main><article><h1>Onkunde</h1>
-			    	Er zijn veel mensen die niet kunnen " . $vraag1 . ". Neem nou " . $vraag2 . ". Zelfs met de hulp van een " . $vraag4 . "
-				    of zelfs " . $vraag3 . " kan " . $vraag2 . " niet " . $vraag1 . ". dat heeft niet te maken met een gebrek aan " . $vraag5 . " , maar met een 
-				    te veel aan " . $vraag6 . ". Teveel " . $vraag6 . " leidt tot " . $vraag7 . " en dat is niet goed als je wilt " . $vraag1 . ".
-				    Helaas voor " . $vraag2 . ".</article></main";}
+			    	Er zijn veel mensen die niet kunnen ".$q1.". Neem nou ".$q2.". Zelfs met de hulp van een " .$q4."
+				    of zelfs " .$q3." kan ".$q2." niet ".$q1. ". dat heeft niet te maken met een gebrek aan ".$q5." , maar met een 
+				    te veel aan ".$q6.". Teveel ".$q6." leidt tot ".$q7." en dat is niet goed als je wilt " .$q1.".
+				    Helaas voor ".$q2.".</article></main";
+				}
 			?>
 		</main>
 		<footer>
