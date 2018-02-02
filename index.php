@@ -3,8 +3,10 @@
 	<head>
 		<title>Mad libs</title>
 	 	<link rel="stylesheet" type="text/css" href="style.css">
+	 	<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
 	</head>
 	<body>
+		<h1 id="titel">Mad Libs</h1>
 		<header>
 			<ul>
 				<li><a href="#">Er heerst paniek...</a></li>
